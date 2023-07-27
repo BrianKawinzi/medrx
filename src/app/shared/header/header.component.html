@@ -1,0 +1,20 @@
+<nav>
+    <h1>MedRx</h1>
+    <ul>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Sign in</a></li>
+        <!-- Add the matMenuTriggerFor directive to the button to open the dropdown menu -->
+        <button mat-icon-button [matMenuTriggerFor]="menu" class="green-theme">
+            <mat-icon>menu</mat-icon>
+        </button>
+        <!-- Define the dropdown menu content using matMenu and matMenuItem directives -->
+        <div class="panel">
+            <mat-menu #menu="matMenu" class="green-theme" id="panel">
+                <button mat-menu-item>Partner with us</button>
+                <button mat-menu-item>Partner Sign in</button>
+                <button mat-menu-item>About us</button>
+            </mat-menu>
+        </div>
+    </ul>
+</nav>
+

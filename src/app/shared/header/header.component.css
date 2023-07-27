@@ -1,0 +1,59 @@
+/* CSS Code */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff; /* Set your desired background color */
+    padding: 10px 20px;
+    color: #111111; /* Set your desired text color */
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  li {
+    margin-right: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #111; /* Set your desired link color */
+  }
+  
+  button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    color: #111; /* Set your desired button color */
+    font-size: 20px;
+  }
+ /* styles.css */
+
+/* Set the green theme color for the dropdown menu */
+.green-theme .mat-menu-panel {
+    background-color: #4caf50; /* Replace with your desired green color */
+    color: #ffffff; /* Replace with your desired text color for the menu items */
+  }
+  
+  /* Set the green theme color for menu items */
+  .green-theme .mat-menu-item {
+    color: #ffffff; /* Replace with your desired text color for the menu items */
+  }
+  
+  /* Set the green theme color for menu items on hover */
+  .green-theme .mat-menu-item:hover {
+    background-color: #45a049; /* Replace with a slightly darker green color for hover effect */
+  }
+.panel{
+    color: #45a049;
+  }
+  
