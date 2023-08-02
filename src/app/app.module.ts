@@ -11,6 +11,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HomeComponent } from './pages/home/home.component';
 import { FormsModule } from '@angular/forms';
 import { DrugCarouselComponent } from './pages/drug-carousel/drug-carousel.component';
+import { FeaturesBenefitsComponent } from './pages/features-benefits/features-benefits.component';
+import { HomeFooterComponent } from './pages/home-footer/home-footer.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { DrugCarouselComponent } from './pages/drug-carousel/drug-carousel.compo
     HeaderComponent,
     FooterComponent,
     HomeComponent,
-    DrugCarouselComponent
+    DrugCarouselComponent,
+    FeaturesBenefitsComponent,
+    HomeFooterComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,12 @@
+.wrapper{
+    height: auto;
+    margin: auto;
+    background-color: rgb(110, 204, 110);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px;
+}
+ul li{
+    list-style: none;
+}
