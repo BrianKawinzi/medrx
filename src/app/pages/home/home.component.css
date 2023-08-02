@@ -1,45 +1,213 @@
 /* styles.css */
 .searchContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #9fdeaf;
-    /* Green background color */
-    color: #ffffff;
-    /* Text color */
-    padding: 20px;
-    height: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #9fdeaf;
+  /* Green background color */
+  color: #ffffff;
+  /* Text color */
+  padding: 20px;
+  height: 30%;
 }
 
 h1 {
-    margin: 0;
-    font-size: 24px;
-    color: black;
+  margin: 0;
+  font-size: 24px;
+  color: black;
 }
 
 .searchBar {
-    display: flex;
-    align-items: center;
-    background-color: #ffffff;
-    /* Search bar background color */
-    padding: 8px 16px;
-    border-radius: 4px;
-    margin-top: 10px;
-    width: 300px;
-    /* Adjust the width as per your design */
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  /* Search bar background color */
+  padding: 8px 16px;
+  border-radius: 4px;
+  margin-top: 10px;
+  width: 300px;
+  /* Adjust the width as per your design */
 }
 
 input[type="text"] {
-    border: none;
-    outline: none;
-    flex: 1;
-    padding: 4px;
+  border: none;
+  outline: none;
+  flex: 1;
+  padding: 4px;
 }
 
 span {
-    margin-left: 8px;
-    color: #4caf50;
-    /* Icon color */
-    cursor: pointer;
+  margin-left: 8px;
+  color: #4caf50;
+  /* Icon color */
+  cursor: pointer;
 }
+
+.example-card {
+  max-width: 400px;
+}
+
+.example-header-image {
+  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+  background-size: cover;
+}
+
+/* styles.css */
+.card-container {
+  display: flex;
+  /* Use flexbox to arrange the cards in a row */
+  flex-wrap: wrap;
+  /* Allow cards to wrap to the next row if necessary */
+  justify-content: space-around;
+  /* Distribute the cards with space between them */
+  padding: 20px;
+  /* Optional: Add some padding around the cards */
+}
+
+mat-card.example-card {
+  width: calc(25% - 20px);
+  /* Adjust the width of each card to fit 4 cards horizontally */
+  margin: 10px;
+  /* Add some spacing between the cards */
+}
+
+/*searchBar styling*/
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap");
+
+.parent-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  max-width: 800px;
+  /* Adjust this value based on your design preference */
+  width: 100%;
+  position: relative;
+}
+
+.Searchbarheader h2 {
+
+  text-align: center;
+  padding-top: 26px;
+
+}
+
+.search-input {
+  padding: 0.5rem 1rem;
+  height: 3rem;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  flex-grow: 1;
+  margin: 10px 0;
+  padding-right: 3rem;
+  box-sizing: border-box;
+}
+
+.Search-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #333;
+  background-color: #07b90a;
+  border-radius: 0 50px 0;
+  color: white;
+  border: none;
+  border-radius: 0 25px 0;
+  padding: 0.5rem;
+  cursor: pointer;
+  font-size: 1rem;
+  position: absolute;
+  /* Add this line */
+  right: 0;
+  /* Add this line */
+  height: 3rem;
+  width: 3rem;
+  /* Adjust this value if needed */
+}
+
+.search-barWrapper {
+  background-color: rgb(110, 204, 110);
+  height: 40%;
+}
+
+.material-icon {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+/*carousel styling*/
+/* Style for the header (unchanged) */
+.header {
+  text-align: center;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+.header h4 {
+  margin: 0;
+}
+
+/* Style for the flex container wrapper */
+.wrapper {
+  display: flex; /* Set it as a flex container */
+  flex-wrap: wrap; /* Allow cards to wrap to the next row if needed */
+  justify-content: flex-start; /* Align cards horizontally at the start */
+}
+
+/* Style for individual cards (unchanged) */
+.card {
+  width: 300px; /* Set a fixed width for each card */
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  background-color: #fff;
+}
+
+.card-img-container {
+  text-align: center;
+}
+
+.card-img-top {
+  max-width: 100%;
+  max-height: 200px;
+  object-fit: contain;
+}
+
+.card-title {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.card-text {
+  margin-bottom: 10px;
+}
+
+/* Style for the "Get free coupon" button (unchanged) */
+.btn-success {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+}
+
+/* Additional styles for the scroll container (if needed, unchanged) */
+.scrolling-wrapper {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+

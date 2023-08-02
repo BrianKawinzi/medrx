@@ -6,6 +6,7 @@ nav {
     background-color: #fff; /* Set your desired background color */
     padding: 10px 20px;
     color: #111111; /* Set your desired text color */
+    font-size: medium;
   }
   
   h1 {
@@ -56,4 +57,9 @@ nav {
 .panel{
     color: #45a049;
   }
+nav a:hover {
+  
+  font-weight: 700;
+  color: rgb(0, 100, 13);
+}
   
