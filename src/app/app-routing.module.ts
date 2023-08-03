@@ -6,6 +6,7 @@ import { SignupPageComponent } from './pages/signup-page/signup-page.component';
 import { ContactUsComponent } from './pages/contact-us/contact-us.component';
 import { AboutusComponent } from './pages/aboutus/aboutus.component';
 import { LoginPageComponent } from './pages/login-page/login-page.component';
+import { PharmacyRegistrationComponent } from './pages/pharmacy-registration/pharmacy-registration.component';
 const routes: Routes = [
   {path: '', component: HomeComponent},
   {path: 'home', component: HomeComponent},
@@ -13,7 +14,8 @@ const routes: Routes = [
   {path: 'sign', component: SignupPageComponent},
   {path: 'contact', component: ContactUsComponent},
   {path: 'about', component: AboutusComponent},
-  {path: 'login', component: LoginPageComponent}
+  {path: 'login', component: LoginPageComponent},
+  {path: 'register', component: PharmacyRegistrationComponent}
   
 ];
 

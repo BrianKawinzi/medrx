@@ -19,6 +19,7 @@ import { ContactUsComponent } from './pages/contact-us/contact-us.component';
 import { AboutusComponent } from './pages/aboutus/aboutus.component';
 import { LoginPageComponent } from './pages/login-page/login-page.component';
 import { PharmacyRegistrationComponent } from './pages/pharmacy-registration/pharmacy-registration.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -43,7 +44,8 @@ import { PharmacyRegistrationComponent } from './pages/pharmacy-registration/pha
     MatIconModule,
     MatMenuModule,
     MatCardModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
 
   ],
   providers: [],
