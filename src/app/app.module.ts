@@ -13,6 +13,7 @@ import { FormsModule } from '@angular/forms';
 import { DrugCarouselComponent } from './pages/drug-carousel/drug-carousel.component';
 import { FeaturesBenefitsComponent } from './pages/features-benefits/features-benefits.component';
 import { HomeFooterComponent } from './pages/home-footer/home-footer.component';
+import { ServicesComponent } from './pages/services/services.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { HomeFooterComponent } from './pages/home-footer/home-footer.component';
     HomeComponent,
     DrugCarouselComponent,
     FeaturesBenefitsComponent,
-    HomeFooterComponent
+    HomeFooterComponent,
+    ServicesComponent
   ],
   imports: [
     BrowserModule,
