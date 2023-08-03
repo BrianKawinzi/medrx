@@ -14,6 +14,8 @@ import { DrugCarouselComponent } from './pages/drug-carousel/drug-carousel.compo
 import { FeaturesBenefitsComponent } from './pages/features-benefits/features-benefits.component';
 import { HomeFooterComponent } from './pages/home-footer/home-footer.component';
 import { ServicesComponent } from './pages/services/services.component';
+import { SignupPageComponent } from './pages/signup-page/signup-page.component';
+import { ContactUsComponent } from './pages/contact-us/contact-us.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { ServicesComponent } from './pages/services/services.component';
     DrugCarouselComponent,
     FeaturesBenefitsComponent,
     HomeFooterComponent,
-    ServicesComponent
+    ServicesComponent,
+    SignupPageComponent,
+    ContactUsComponent
   ],
   imports: [
     BrowserModule,
