@@ -17,6 +17,8 @@ import { ServicesComponent } from './pages/services/services.component';
 import { SignupPageComponent } from './pages/signup-page/signup-page.component';
 import { ContactUsComponent } from './pages/contact-us/contact-us.component';
 import { AboutusComponent } from './pages/aboutus/aboutus.component';
+import { LoginPageComponent } from './pages/login-page/login-page.component';
+import { PharmacyRegistrationComponent } from './pages/pharmacy-registration/pharmacy-registration.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,9 @@ import { AboutusComponent } from './pages/aboutus/aboutus.component';
     ServicesComponent,
     SignupPageComponent,
     ContactUsComponent,
-    AboutusComponent
+    AboutusComponent,
+    LoginPageComponent,
+    PharmacyRegistrationComponent
   ],
   imports: [
     BrowserModule,
