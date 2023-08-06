@@ -3,3 +3,23 @@
     <p>Price: {{ medication.price }}</p>
     <p>Description: {{ medication.description }}</p>
 </div>
+
+
+                <div class="card-img-container">
+                    <img [src]="medication.image" alt="Drug Image" class="card-img-top">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">{{ medication.name }}</h5>
+                    <p class="card-text">{{ medication.details }}</p>
+                    <p class="card-text"
+                        [ngStyle]="{ 'text-decoration': medication.discountedPrice ? 'line-through' : 'none', 'color': medication.discountedPrice ? 'red' : 'black' }">
+                        Ksh {{ medication.originalPrice }}</p>
+                    <p class="card-text" [ngStyle]="{ 'color': 'green', 'font-size': '1.1em' }">Ksh {{
+                        medication.discountedPrice }}</p>
+                    <p class="card-text">{{ medication.discountDetails }}</p>
+
+                    <button (click)="getCoupon()" class="btn btn-success">Get free coupon</button>
+        
+    <!-- <button class="btn btn-secondary scroll-button" (click)="scrollRight()">&gt;</button> -->
+
+

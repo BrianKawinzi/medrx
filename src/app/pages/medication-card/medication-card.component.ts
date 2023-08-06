@@ -8,4 +8,9 @@ import { Component, Input } from '@angular/core';
 export class MedicationCardComponent {
   @Input() medication: any;
 
+  getCoupon(): void {
+    
+    // Implement your logic to get a coupon here...
+  }
+
 }
