@@ -12,8 +12,9 @@
       </button>
     </div>
   </div>
+  <app-medication-card *ngIf="searchedMedication" [medication]="searchedMedication"></app-medication-card>
 </div>
-<app-medication-card *ngIf="searchedMedication" [medication]="searchedMedication"></app-medication-card>
+
 <!--drug carousel-->
 <app-drug-carousel></app-drug-carousel>
 <app-features-benefits></app-features-benefits>
