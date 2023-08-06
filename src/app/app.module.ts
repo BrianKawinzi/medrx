@@ -20,6 +20,7 @@ import { AboutusComponent } from './pages/aboutus/aboutus.component';
 import { LoginPageComponent } from './pages/login-page/login-page.component';
 import { PharmacyRegistrationComponent } from './pages/pharmacy-registration/pharmacy-registration.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { MedicationCardComponent } from './pages/medication-card/medication-card.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     ContactUsComponent,
     AboutusComponent,
     LoginPageComponent,
-    PharmacyRegistrationComponent
+    PharmacyRegistrationComponent,
+    MedicationCardComponent
   ],
   imports: [
     BrowserModule,
